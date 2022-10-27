@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    background: rgb(206,205,218);
+}
+
+main .status-div {
+    padding: 1rem 0;
+    height: 800px;
+    width: 600px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    position: relative;
+}
+
+main .status-div .user-info {
+    top: 20px;
+    left: 5%;
+    width: 90%;
+    position: absolute;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+    color: white;
+}
+
+.user-info a {
+    color: white;
+}
+
+.user-info span {
+    font-size: 2.5rem;
+}
+
+.user-info .info1{
+    display: flex;
+    align-items: center;
+}
+
+.user-info img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user-info .user-info-div {
+    margin-left: 0.6rem;
+}
+
+.user-info-div .username {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.status-div .img-div {
+    height: 600px;
+    width: 600px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.status-div .img-div img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.status-div .controllers {
+    position: absolute;
+    color: white;
+    z-index: 99;
+}
+
+.controllers span {
+    font-size: 3rem;
+}
+
+.controllers.left {
+    left: 5px;
+    top: 326px;
+}
+
+.controllers.right {
+    right: 5px;
+    top: 326px;
+}
